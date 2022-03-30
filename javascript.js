@@ -16,12 +16,26 @@
 
 //if else statement
 
-const age = 15
-const isOldOk = age >= 18;
+// const age = 15
+// const isOldOk = age >= 18;
 
-if (isOldOk) {
-    console.log('Madhu can get license');
+// if (isOldOk) {
+//     console.log('Madhu can get license');
+// }
+// else {
+//     console.log('Madhu can not get license');
+// }
+
+//if else problems
+
+const country = 'India';
+const population = 44;
+
+if (population > 33) {
+    console.log(`${country}'s population is above average`);
+    } else {
+    console.log(`${country}'s population is ${33 - population} million
+    below average`,);
 }
-else {
-    console.log('Madhu can not get license');
-}
+
+console.log(average);
