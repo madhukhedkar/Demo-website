@@ -28,14 +28,27 @@
 
 //if else problems
 
-const country = 'India';
-const population = 44;
+// const country = 'India';
+// const population = 44;
 
-if (population > 33) {
-    console.log(`${country}'s population is above average`);
-    } else {
-    console.log(`${country}'s population is ${33 - population} million
-    below average`,);
-}
+// if (population > 33) {
+//     console.log(`${country}'s population is above average`);
+//     } else {
+//     console.log(`${country}'s population is ${33 - population} million
+//     below average`,);
+// }
 
-console.log(average);
+// console.log(average);
+
+
+//type conversion
+
+const inputYear = '1991';
+console.log(Number(inputYear));
+
+console.log(Number(inputYear) + 18);
+console.log(Number('jonas'));
+
+console.log(typeof NaN);
+
+console.log(String(23), 23);
