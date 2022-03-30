@@ -52,3 +52,13 @@ console.log(Number('jonas'));
 console.log(typeof NaN);
 
 console.log(String(23), 23);
+
+const inputYear = '1991';
+console.log(Number(inputYear));
+
+console.log(Number(inputYear) + 18);
+console.log(Number('jonas'));
+
+console.log(typeof NaN);
+
+console.log(String(23), 23);
