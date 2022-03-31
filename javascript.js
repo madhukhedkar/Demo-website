@@ -43,24 +43,32 @@
 
 //type conversion
 
-const inputYear = '1991';
-console.log(Number(inputYear));
+// 
 
-console.log(Number(inputYear) + 18);
-console.log(Number('jonas'));
+// console.log(Boolean(0)); //false
 
-console.log(typeof NaN);
+// const money = 0;
 
-console.log(String(23), 23);
+// if (money){
+//     console.log("Don't spend it.");  // money = 0, this is false.
+// }else {
+//     console.log('You should get a Job.');
+// }
 
-const inputYear = '1991';
-console.log(Number(inputYear));
+// //Output You should get a Job.]]
 
-console.log(Number(inputYear) + 18);
-console.log(Number('jonas'));
+// let height; //varible value is undefined
 
-console.log(typeof NaN);
+// if (height){
+//     console.log("Height is defined"); //that's why this false
+// }else{
+//     console.log("Height is undefined");
+// }
 
-console.log(String(23), 23);console.log(String(23), 23);
-console.log(String(23), 23);console.log(String(23), 23);
-console.log(String(23), 23);console.log(String(23), 23);
+//Output Height is undefined]]
+
+//Equality operators
+
+const age = 18;
+
+if (age === 18) console.log('You are an adult now.');
