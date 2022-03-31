@@ -62,3 +62,5 @@ console.log(Number('jonas'));
 console.log(typeof NaN);
 
 console.log(String(23), 23);console.log(String(23), 23);
+console.log(String(23), 23);console.log(String(23), 23);
+console.log(String(23), 23);console.log(String(23), 23);
