@@ -72,3 +72,23 @@
 const age = 18;
 
 if (age === 18) console.log('You are an adult now.');
+
+const age = 18;  //18 is number
+
+if (age === 18){
+    console.log("You just became  adult - Strict");  // this is true 
+}
+
+if (age == 18){
+    console.log("You just became  adult - Loose"); // this is true
+}
+
+const age = "18";  //18 is string
+
+if (age === 18){
+    console.log("You just became  adult - Strict");  // this is false 
+}
+
+if (age == 18){
+    console.log("You just became  adult - Loose"); // this is true
+}
