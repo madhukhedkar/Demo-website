@@ -69,26 +69,18 @@
 
 //Equality operators
 
-const age = 18;
+// 
 
-if (age === 18) console.log('You are an adult now.');
+// learn equality operators
+const favourite = Number (prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
 
-const age = 18;  //18 is number
+if (favourite === 23){
+    console.log("23 is a coool number");
 
-if (age === 18){
-    console.log("You just became  adult - Strict");  // this is true 
-}
-
-if (age == 18){
-    console.log("You just became  adult - Loose"); // this is true
-}
-
-const age = "18";  //18 is string
-
-if (age === 18){
-    console.log("You just became  adult - Strict");  // this is false 
-}
-
-if (age == 18){
-    console.log("You just became  adult - Loose"); // this is true
+}else if(favourite === 7){
+    console.log("7 is also a cool number");
+}else{
+    console.log("number is not 23 or 7");
 }
