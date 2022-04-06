@@ -71,16 +71,30 @@
 
 // 
 
-// learn equality operators
-const favourite = Number (prompt("What's your favourite number?"));
-// console.log(favourite);
-// console.log(typeof favourite);
+// // learn equality operators
+// const favourite = Number (prompt("What's your favourite number?"));
+// // console.log(favourite);
+// // console.log(typeof favourite);
 
-if (favourite === 23){
-    console.log("23 is a coool number");
+// if (favourite === 23){
+//     console.log("23 is a coool number");
 
-}else if(favourite === 7){
-    console.log("7 is also a cool number");
+// }else if(favourite === 7){
+//     console.log("7 is also a cool number");
+// }else{
+//     console.log("number is not 23 or 7");
+// }
+
+//boolean logic
+
+// Assignment on equlity opertors
+
+const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+
+if (numNeighbours === 1){
+    console.log("Only 1 border!'");
+}else if (numNeighbours  > 1){
+    console.log("More than 1 border!'");
 }else{
-    console.log("number is not 23 or 7");
+    console.log("No borders");
 }
