@@ -89,12 +89,38 @@
 
 // Assignment on equlity opertors
 
-const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+// const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
 
-if (numNeighbours === 1){
-    console.log("Only 1 border!'");
-}else if (numNeighbours  > 1){
-    console.log("More than 1 border!'");
+// if (numNeighbours === 1){
+//     console.log("Only 1 border!'");
+// }else if (numNeighbours  > 1){
+//     console.log("More than 1 border!'");
+// }else{
+//     console.log("No borders");
+// }
+
+
+//Logical Operators
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision){
+    console.log("Sara can drive");
 }else{
-    console.log("No borders");
-}
+    console.log("Sara can not drive");
+}    
+
+const isTired = false;
+ 
+if (hasDriversLicense && hasGoodVision && !isTired){
+    console.log("Sara can drive");
+}else{
+    console.log("Sara can not drive");
+}    
+
+
