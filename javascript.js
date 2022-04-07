@@ -1,3 +1,4 @@
+'use strict';
 // string and Templates
 
 // const firstName = 'Madhu';
@@ -196,28 +197,71 @@
 
 //Assignment on ternary operators
 
-const population = 43;
-const country = 'India';
-population > 33 ? "above" : "below";
+// const population = 43;
+// const country = 'India';
+// population > 33 ? "above" : "below";
 
-console.log(
-    `${country}'s population is ${population > 33 ? 'above' :
- 'below'} average`,
-)
+// console.log(
+//     `${country}'s population is ${population > 33 ? 'above' :
+//  'below'} average`,
+// )
 
-//Assignment on ternary operators
+// //Assignment on ternary operators
 
-bill = 275;
-tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
+// bill = 275;
+// tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
 
-console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
+// console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
 
-bill = 40;
-tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
+// bill = 40;
+// tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
 
-console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
+// console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
 
-bill = 430;
-tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
+// bill = 430;
+// tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
 
-console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
+// console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
+
+
+"use strict";
+// function
+
+// function logger(){
+//     console.log("I'm here");
+// }
+
+
+//calling / running / invoking the function
+// logger();
+// logger();
+// logger();
+// logger();
+
+
+//new function
+
+function foodProcessor(apple, orange){
+    const juice = `Juice with ${apple} apples and ${orange} oranges.`;
+    return juice;
+}
+
+const appleJuice = foodProcessor(3, 5);
+console.log(appleJuice);
+
+const orangeJuice = foodProcessor(13, 55);
+console.log(orangeJuice);
+
+//new example
+
+
+function subjectMarks(math, english){
+    const avgMark = `Getting average marks ${math + english /2 }`;
+    return avgMark;
+}
+
+const math = subjectMarks(20, 22);
+console.log(math);
+const english = subjectMarks(40, 42);
+console.log(english);
+
