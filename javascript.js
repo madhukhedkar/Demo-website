@@ -102,25 +102,30 @@
 
 //Logical Operators
 
-const hasDriversLicense = true;
-const hasGoodVision = true;
+// Assignment on Logical Operators
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// const english = true;
+// const lessThanFifftyMillion = true;
+// const isIsland = false;
 
-if (hasDriversLicense && hasGoodVision){
-    console.log("Sara can drive");
-}else{
-    console.log("Sara can not drive");
-}    
+// if (english && lessThanFifftyMillion && !isIsland){
+//     console.log("You should live in Portugal")
+// }else{
+//     console.log("'You should not live in Portugal")
+// }
 
-const isTired = false;
- 
-if (hasDriversLicense && hasGoodVision && !isTired){
-    console.log("Sara can drive");
-}else{
-    console.log("Sara can not drive");
-}    
+Assignment  Logical Operators
 
+const country = "India";
+const language = "english";
+const population = 45;
+const isIsland = false;
+
+
+if (language === 'english' && population < 50 && !isIsland)
+{
+console.log(`You should live in ${country} :)`);
+} else {
+console.log(`${country} does not meet your criteria :(`);
+}
 
