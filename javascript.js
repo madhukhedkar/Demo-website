@@ -241,27 +241,44 @@
 
 //new function
 
-function foodProcessor(apple, orange){
-    const juice = `Juice with ${apple} apples and ${orange} oranges.`;
-    return juice;
+// function foodProcessor(apple, orange){
+//     const juice = `Juice with ${apple} apples and ${orange} oranges.`;
+//     return juice;
+// }
+
+// const appleJuice = foodProcessor(3, 5);
+// console.log(appleJuice);
+
+// const orangeJuice = foodProcessor(13, 55);
+// console.log(orangeJuice);
+
+// //new example
+
+
+// function subjectMarks(math, english){
+//     const avgMark = `Getting average marks ${math + english /2 }`;
+//     return avgMark;
+// }
+
+// const math = subjectMarks(20, 22);
+// console.log(math);
+// const english = subjectMarks(40, 42);
+// console.log(english);
+
+
+//Assignment of function
+
+function describeCountry(country, population, capitalCity){
+    const details = `${country} has ${population} million people and its capital city is ${capitalCity}`;
+
+    return details;
 }
 
-const appleJuice = foodProcessor(3, 5);
-console.log(appleJuice);
+const country1 = describeCountry('India', 23, 'Delhi');
+console.log(country1);
 
-const orangeJuice = foodProcessor(13, 55);
-console.log(orangeJuice);
+const country2 = describeCountry('Pakistan', 21, 'Lahor');
+console.log(country2);
 
-//new example
-
-
-function subjectMarks(math, english){
-    const avgMark = `Getting average marks ${math + english /2 }`;
-    return avgMark;
-}
-
-const math = subjectMarks(20, 22);
-console.log(math);
-const english = subjectMarks(40, 42);
-console.log(english);
-
+const country3 = describeCountry('Shrilanka', 20, 'Colambo');
+console.log(country3);
