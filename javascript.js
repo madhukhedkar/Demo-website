@@ -180,15 +180,44 @@
 
 // The conditional (Ternary) Operators
 
-const age = 23;
+// const age = 23;
 
-age >= 18 ? console.log("Wine 🍷") : console.log("Water💧");
+// age >= 18 ? console.log("Wine 🍷") : console.log("Water💧");
 
 
-const drink = age >= 18 ? "Wine 🍷" : "Water💧";
+// const drink = age >= 18 ? "Wine 🍷" : "Water💧";
 
-console.log(drink);
+// console.log(drink);
 
-const ageMy = 23;
+// const ageMy = 23;
 
-ageMy >= 18 ? console.log("can drive") : console.log("can't drive");
+// ageMy >= 18 ? console.log("can drive") : console.log("can't drive");
+
+
+//Assignment on ternary operators
+
+const population = 43;
+const country = 'India';
+population > 33 ? "above" : "below";
+
+console.log(
+    `${country}'s population is ${population > 33 ? 'above' :
+ 'below'} average`,
+)
+
+//Assignment on ternary operators
+
+bill = 275;
+tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
+
+console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
+
+bill = 40;
+tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
+
+console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
+
+bill = 430;
+tip = bill <=300 && bill >=50 ? bill * 0.15 : bill * 0.20;
+
+console.log(`The bill was ${bill}, the tip was ${tip} and the tolat value ${bill + tip}`);
