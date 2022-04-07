@@ -114,18 +114,46 @@
 //     console.log("'You should not live in Portugal")
 // }
 
-Assignment  Logical Operators
+// Assignment  Logical Operators
 
-const country = "India";
-const language = "english";
-const population = 45;
-const isIsland = false;
+// const country = "India";
+// const language = "english";
+// const population = 45;
+// const isIsland = false;
 
 
-if (language === 'english' && population < 50 && !isIsland)
-{
-console.log(`You should live in ${country} :)`);
-} else {
-console.log(`${country} does not meet your criteria :(`);
+// if (language === 'english' && population < 50 && !isIsland)
+// {
+// console.log(`You should live in ${country} :)`);
+// } else {
+// console.log(`${country} does not meet your criteria :(`);
+// }
+
+
+//Switch Statement
+
+const day = 'monday'
+
+switch (day){
+    case 'monday': //day=== monday 
+        console.log("Plan course structure");
+        console.log("Go to codign meetup");
+        break;
+    case 'tuesday':
+        console.log("Prepare Theory videos");
+        break;
+    case 'Wednesday':
+    case 'thursday':
+        console.log("Write code example");
+        break;
+    case 'friday':
+        console.log("Record Videos");
+        break;
+    case 'saturday':
+    case 'sunday':    
+        console.log("Enjoy the weekend");       
+        break;
+    default: 
+        console.log("Not a valid day");
 }
 
